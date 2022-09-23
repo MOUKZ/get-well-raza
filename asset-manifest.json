@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/get-well-raza/static/css/main.68f646c1.css",
+    "main.js": "/get-well-raza/static/js/main.0def2106.js",
+    "index.html": "/get-well-raza/index.html",
+    "main.68f646c1.css.map": "/get-well-raza/static/css/main.68f646c1.css.map",
+    "main.0def2106.js.map": "/get-well-raza/static/js/main.0def2106.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68f646c1.css",
+    "static/js/main.0def2106.js"
+  ]
+}
