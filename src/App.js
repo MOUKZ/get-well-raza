@@ -160,7 +160,7 @@ class App extends React.Component {
     const containerStyle = {
       backgroundColor: 'white',
       maxHeight: '50vh',
-      width: '20vw',
+      width: '80vw',
       alignItems: 'flex-start',
       display: 'flex',
       justifyContent: 'space-around',
@@ -326,12 +326,13 @@ class App extends React.Component {
       <div className="App" >
         <header className="App-header" >
           <Container style={containerStyle}>
-            <Button style={buttonStyle} onClick={() => this.slidetl.restart()} variant="outline-info">Slide</Button>
-            <Button style={buttonStyle} onClick={() => this.filltl.restart()} variant="outline-info">Fill</Button>
-            <Button style={buttonStyle} onClick={() => this.orbittl.restart()} variant="outline-info">Orbit</Button>
-            <Button style={buttonStyle} onClick={() => this.raintl.restart()} variant="outline-info">Rain</Button>
-            <Button style={buttonStyle} onClick={() => this.jumptl.restart()} variant="outline-info">Jump</Button>
-            <Button style={buttonStyle} onClick={() => this.growtl.restart()} variant="outline-info">Grow</Button>
+
+            <Button style={buttonStyle} onClick={() => this.filltl.restart()} variant="outline-info">
+            Click me and have some cake<br/>
+            I AM THE GREATEST GIFT GIVER AND I WIN
+            </Button>
+           
+           
           </Container>
           {slideComponents}
           {fillComponent}
